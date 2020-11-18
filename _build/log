@@ -1,10 +1,10 @@
 # dune exec src/norimaki.exe
 # OCAMLPARAM: unset
-# Workspace root: /Users/gamicy/norimaki
-$ /usr/local/bin/nproc > /var/folders/cr/1pfd983536j7bkky2vj81g0h0000gq/T/dune5a89b8.output 2> /dev/null
+# Workspace root: /Users/gamicy/norimaki/norimaki
+$ /usr/local/bin/nproc > /var/folders/cr/1pfd983536j7bkky2vj81g0h0000gq/T/dune545afa.output 2> /dev/null
 # Auto-detected concurrency: 4
 # disable binary cache
-$ /Users/gamicy/.opam/norimaki/bin/ocamlc.opt -config > /var/folders/cr/1pfd983536j7bkky2vj81g0h0000gq/T/dunea64f9a.output
+$ /Users/gamicy/.opam/norimaki/bin/ocamlc.opt -config > /var/folders/cr/1pfd983536j7bkky2vj81g0h0000gq/T/dune34e254.output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -22,13 +22,15 @@ $ /Users/gamicy/.opam/norimaki/bin/ocamlc.opt -config > /var/folders/cr/1pfd9835
 #  ; ocamlmklib = Ok External "/Users/gamicy/.opam/norimaki/bin/ocamlmklib.opt"
 #  ; env =
 #      map
-#        { "INSIDE_DUNE" : "/Users/gamicy/norimaki/_build/default"
-#        ; "MANPATH" : "/Users/gamicy/norimaki/_build/install/default/bin"
+#        { "INSIDE_DUNE" : "/Users/gamicy/norimaki/norimaki/_build/default"
+#        ; "MANPATH" :
+#            "/Users/gamicy/norimaki/norimaki/_build/install/default/bin"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
-#            "/Users/gamicy/norimaki/_build/install/default/lib"
-#        ; "OCAMLPATH" : "/Users/gamicy/norimaki/_build/install/default/lib"
+#            "/Users/gamicy/norimaki/norimaki/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/gamicy/norimaki/norimaki/_build/install/default/lib"
 #        ; "OCAMLTOP_INCLUDE_PATH" :
-#            "/Users/gamicy/norimaki/_build/install/default/lib/toplevel"
+#            "/Users/gamicy/norimaki/norimaki/_build/install/default/lib/toplevel"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OPAMCOLOR" : "always"
 #        }
@@ -101,7 +103,7 @@ $ /Users/gamicy/.opam/norimaki/bin/ocamlc.opt -config > /var/folders/cr/1pfd9835
 #      ; windows_unicode = false
 #      }
 #  }
-# Workspace root: /Users/gamicy/norimaki
+# Workspace root: /Users/gamicy/norimaki/norimaki
 $ (cd _build/default && /Users/gamicy/.opam/norimaki/bin/ocamldep.opt -modules -impl src/norimaki.ml) > _build/default/src/.norimaki.eobjs/norimaki.ml.d
 $ (cd _build/default && /Users/gamicy/.opam/norimaki/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/.norimaki.eobjs/byte -I /Users/gamicy/.opam/norimaki/lib/bytes -I /Users/gamicy/.opam/norimaki/lib/csv -no-alias-deps -opaque -o src/.norimaki.eobjs/byte/dune__exe__Norimaki.cmo -c -impl src/norimaki.ml)
 $ (cd _build/default && /Users/gamicy/.opam/norimaki/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/.norimaki.eobjs/byte -I src/.norimaki.eobjs/native -I /Users/gamicy/.opam/norimaki/lib/bytes -I /Users/gamicy/.opam/norimaki/lib/csv -intf-suffix .ml -no-alias-deps -opaque -o src/.norimaki.eobjs/native/dune__exe__Norimaki.cmx -c -impl src/norimaki.ml)
